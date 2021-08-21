@@ -61,7 +61,6 @@ export class PostBusiness {
     if(!post) {
       throw new Error("Post não encontrado")
     }
-
     return post
   }
 }
